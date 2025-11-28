@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(255, 255, 0);
+    opacity: 5.7;
+    }
+
+h1{
+    background-color: aquamarine; color: black;
+
+}
+.abc{
+    color:lightseagreen;
+
+}
+h2{
+    background-color: darkblue; color: white;
+}
+.abd{
+    color: darkblue;
+}
+.abc1,h4 {
+    background-color: palevioletred; color: white;
+
+
+}
+p{
+    color:darkmagenta;
+}
