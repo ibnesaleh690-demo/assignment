@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border: 1px;
+    border-radius: 5px;
+    font-size: x-large;
+    max-width: 250px;
+   margin-top: 50px;
+    margin-left:570px;
+
+}
+ input{
+   max-width: 600px;
+    margin: 10px;
+    padding: 5px;
+   
+}
+button{
+    align-self: center;
+    padding: 10px;
+    background-color: rgb(255, 70, 163);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+    
+  
+    
+}
+h4{
+    color: white;
+    align-self: center;
+    padding-top: 8px;
+    
+}
+button:hover{
+    background-color: #ccc;
+    color: black;
+}
