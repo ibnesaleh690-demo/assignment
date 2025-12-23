@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="man_contaner">
+    <div class="calculetor">
+      <input type="text" name="" id="result"   placeholder="0" />
+      <div>
+        <button class="oprat_btn"   onclick="clearResult()" >AC</button>
+        <button class="oprat_btn"   onclick="deleteResult()" >DLE</button>
+        <button class="oprat_btn"   onclick="insertValue('%')" >%</button>
+        <button class="oprat_btn"   onclick="insertValue('/')" >/</button>
+      </div>
+      <div>
+        <button onclick="insertValue('7')">7</button>
+        <button onclick="insertValue('8')">8</button>
+        <button onclick="insertValue('9')">9</button>
+        <button class="oprat_btn" oneclick="insertValue('*')">*</button>
+      </div>
+      <div>
+        <button onclick="insertValue('4')">4</button>
+        <button onclick="insertValue('5')">5</button>
+        <button onclick="insertValue('6')">6</button>
+        <button class="oprat_btn" onclick="insertValue('-')">-</button>
+      </div>
+      <div>
+        <button onclick="insertValue('1')">1</button>
+        <button onclick="insertValue('2')">2</button>
+        <button onclick="insertValue('3')">3</button>
+        <button class="oprat_btn" onclick="insertValue('+')">+</button>
+      </div>
+      <div>
+        <button onclick="insertValue('00')">00</button>
+        <button onclick="insertValue('0')">0</button>
+        <button class="oprat_btn" onclick="insertValue('.')">.</button>
+        <button class="oprat_btn" onclick="calculator()">=</button>
+      </div>
+      
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
