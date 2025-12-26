@@ -1,0 +1,15 @@
+.table1{
+    width: 500;
+}
+
+#price{
+    vertical-align: top;
+    letter-spacing: -1px;
+        
+}
+th{
+    border-bottom: 3px solid rgb(53, 105, 247) ;
+}
+#des{
+        border-top: 3px solid rgb(53, 105, 247) ;
+}
